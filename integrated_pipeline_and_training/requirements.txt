@@ -1,0 +1,21 @@
+yolo train data=C:/Users/Haiyang.Bian/PyCharmMiscProject/project_identify_needle_and_trocar/dataset/data.yaml model=yolov8n.pt epochs=50
+
+pip install ultralytics opencv-python
+
+cd robot_project
+python main.py
+
+# robot.move_relative(move_x, move_y, 0)
+
+
+YOLO检测
+↓
+得到 Needle + Target
+↓
+计算误差
+↓
+控制 Meca500 移动
+↓
+对齐
+↓
+垂直插入
