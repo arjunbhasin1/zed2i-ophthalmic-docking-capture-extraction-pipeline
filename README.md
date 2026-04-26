@@ -14,7 +14,7 @@ This repository contains the source code for the data acquisition, preprocessing
 ## Project Attribution
 This study was a collaborative effort conducted at King's College London.
 - **Arjun Bhasin**: Responsible for the primary perception pipeline, including dataset acquisition, frame extraction, cleaning, manual annotation, and the development of the 2D alignment control logic.
-- **Haiyang Bian**: Responsible for model training, optimization, and software-side evaluation, as detailed in the collaborative Results and Evaluation chapter.
+- **Haiyang Bian**: Responsible for model training, optimization, and software-side evaluation.
 
 ## Requirements
 - OpenCV
