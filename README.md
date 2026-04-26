@@ -8,7 +8,7 @@ This repository contains the source code for the data acquisition, preprocessing
 - `integrated_pipeline_and_training/`: The modular deployment pipeline.
     - `vision/`: Acquisition (`camera.py`) and YOLOv8n-based detection modules (`detector.py`).
     - `robot/`: Meca500 control interface (`meca500.py`) and 2D image-space alignment logic (`control.py`).
-    - `models/`: Contains baseline weights and the best-performing trained model weights (`best.pt`).
+    - `models/`: Contains baseline weights (`yolov8n.pt`) and the best-performing trained model weights (`best.pt`).
     - `utils/`: Central configuration (`config.py`) for system parameters and proportional gains $K_x$ and $K_y$.
 
 ## Project Attribution
